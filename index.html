@@ -16,6 +16,13 @@
           color: #C4CF9B}
       p {font-family: "Times New Roman";
          text-align: center;}
+      #box {
+            width: 100px;
+            height: 100px;
+            background-color: #3498db;
+            margin-bottom: 20px;
+            border-radius: 8px;
+       }
     </style>
     <title>CS4241 Assignment 1</title>
     <meta charset="utf-8">
@@ -56,5 +63,31 @@
     <p>
       <br>WPI
     </p>
+    <p><button onclick="playAnimation()">Click Me</button></p> 
+    <div id="box"></div>
+    
+    <script>
+        function playAnimation() {
+            const box = document.getElementById("box");
+    
+            const keyframes = [
+                { transform: "translateX(0px) scale(1)", opacity: 1 },
+                { transform: "translateX(1000px) scale(1)", opacity: 1 },
+                { transform: "translateY(-1000px) scale(1)", opacity: 1 },
+                { transform: "translateY(0px) scale(1)", opacity: 1 },
+                { transform: "translateX(0px) scale(1)", opacity: 1 },
+
+            ];
+
+            const timing = {
+                duration:1000,
+                iterations: 3,
+                easing: "ease-in-out"
+            };
+
+            box.animate(keyframes, timing);
+        }
+    </script>
+    
   </body>
 </html>
