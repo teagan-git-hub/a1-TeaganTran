@@ -16,6 +16,7 @@ This project shows ...
 - h3: set text-align to center and color to #C4CF9B
 - p: set font-family to Times New Roman and text-align to center
 - box: set width to 100px, height to 100px, background-color to #CFC79B, margin-bottom to 20px, and border-radius to 8px
+
 **Simple JavaScript Animation**: Added a simple animation of a box moving around the screen a few times when the button "click me" is pressed
 **Semantic HTML Tags**: Added a link to wpi planner next to course details, a header, and a footer
 
