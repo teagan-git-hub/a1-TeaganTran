@@ -22,5 +22,4 @@ This project shows ...
 
 ## Design Achievements
 **Used the Dynapuff from Google Fonts**: The primary text on my site is Dynapuff found in Google Fonts
-
 **Used Adobe Color Palette**: The colors used on my site consist of the colors listed in the color palette in the repo
