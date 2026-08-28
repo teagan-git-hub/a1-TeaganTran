@@ -11,7 +11,7 @@ This project shows ...
 ## Technical Achievements
 - **Styled page with CSS**: Added style rules for the body, h1, h2, h3, p, and the box used in the javascript animation
 - **Simple JavaScript Animation**: Added a simple animation of a box moving around the screen a few times when the button "click me" is pressed
-- **Semantic HTML Tags**: Added a link to wpi planner in course details, 
+- **Semantic HTML Tags**: Added a link to wpi planner next to course details, header, and footer
 
 ## Design Achievements
 - **Used the Dynapuff from Google Fonts**: The primary text on my site is Dynapuff found in Google Fonts
